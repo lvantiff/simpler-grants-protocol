@@ -40,6 +40,8 @@ const { languages: allLanguages, systems: allSystems } = getFilterOptions();
     protocol. Each plugin maps system-specific data to CommonGrants objects and
     exposes custom fields for data that falls outside the base schema.
   </p>
+  <!-- DEMO ONLY (#356): image with no alt text, to show the a11y scan failing. Do not merge. -->
+  <img slot="intro" src="/favicon.ico" />
   {plugins.map((plugin) => <PluginCatalogCard plugin={plugin} />)}
 </CatalogPage>
 
